@@ -1,5 +1,2 @@
-import os
-
-password = "admin123"
-
-os.system("ls")
+import subprocess
+subprocess.run(["ls"])
