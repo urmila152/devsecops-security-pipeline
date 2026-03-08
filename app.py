@@ -1,3 +1,1 @@
-import subprocess
-
-subprocess.run(["ls"], check=True)
+print("Secure DevSecOps pipeline running")
