@@ -27,3 +27,6 @@ jobs:
         with:
           scan-type: 'fs'
           scan-ref: '.'
+
+      - name: Run Gitleaks Secret Scan
+        uses: gitleaks/gitleaks-action@v2
