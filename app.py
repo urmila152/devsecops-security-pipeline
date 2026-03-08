@@ -1,2 +1,3 @@
 import subprocess
-subprocess.run(["ls"])
+
+subprocess.run(["ls"], check=True)
