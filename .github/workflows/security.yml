@@ -13,10 +13,10 @@ jobs:
       - name: Install Bandit
         run: pip install bandit
 
-      - name: Run Bandit Scan
+      - name: Run Bandit
         run: bandit -r .
 
-      - name: Run Trivy Scan
+      - name: Run Trivy
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
